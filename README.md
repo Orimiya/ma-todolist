@@ -24,6 +24,7 @@ la comunication entre les composants est assuré par les customEvents.
 
 ## Arborescence fichiers
 
+```text
 my-toDolistApp
 │   .gitignore
 │   README.md
@@ -64,6 +65,7 @@ my-toDolistApp
     └───js
             .gitkeep
             app.js
+        ```
 
 ## Roadmap
 
