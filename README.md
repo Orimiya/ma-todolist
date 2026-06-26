@@ -65,7 +65,8 @@ my-toDolistApp
     └───js
             .gitkeep
             app.js
-        ```
+
+```
 
 ## Roadmap
 
