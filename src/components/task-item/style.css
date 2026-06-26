@@ -1,0 +1,54 @@
+.task-item{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    gap: 3px;
+}
+
+.task-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-content span:first-child{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.task-content span:last-child{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.date-indicator{
+    transform: rotate(90deg);
+    color: rgba(61, 67, 198);
+    font-size: smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calendar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    color: white;
+    background:rgba(61, 67, 198);;
+}
+
+.chiffre{
+    font-size: large;
+    font-weight: bold;
+}
+
+.lettre{
+    font-size: smaller;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    height: 55px;
+    padding: 10px 20px 10px 20px;
+}
