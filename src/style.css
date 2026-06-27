@@ -1,7 +1,10 @@
-body{
-    display: flex;
-    justify-content: center;
+body {
+  display: flex;
+  justify-content: center;
+
 }
+
+
 
 /* .app {
   background: rgba(61, 67, 198);

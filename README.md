@@ -4,7 +4,7 @@ taskflow est une apllication moderne de management des tâches. Elle est constru
 framework populaire(lit-element,react). Elle s'appuie sur des composants réutilisables pour le montage de 
 to-do-list coder en javascript pur sans aucune dépendance externe.
 
-## Tesign
+## Design
 
 ![design](./design/todolistnow.webp)
 
@@ -71,7 +71,7 @@ my-toDolistApp
 ## Roadmap
 
 - [x] Task creation
-- [ ] Task deletion
+- [x] Task deletion
 - [ ] Local Storage
 - [ ] Categories
 

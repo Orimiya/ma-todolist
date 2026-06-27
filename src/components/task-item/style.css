@@ -52,3 +52,13 @@ button{
     height: 55px;
     padding: 10px 20px 10px 20px;
 }
+
+input[type="checkbox"]::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+}

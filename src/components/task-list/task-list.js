@@ -4,12 +4,7 @@ import { myBaseElement } from "../../core/base-element.js";
 export class TaskList extends myBaseElement {
   constructor() {
     super();
-    this._tasks = [
-      { title: "ma première tache", start: "13h00", end: "13h30" },
-      { title: "ma première tache", start: "13h00", end: "13h30" },
-      { title: "ma première tache", start: "13h00", end: "13h30" },
-      { title: "ma première tache", start: "13h00", end: "13h30" },
-    ];
+    this._tasks = [];
   }
 
   get styles(){
@@ -45,6 +40,7 @@ export class TaskList extends myBaseElement {
                 start='${task.start}' 
                 end='${task.end}'
                 createdAt='${new Date().toLocaleDateString()}'
+                id='${task.id}'
             ></my-task>
             `,
       )
